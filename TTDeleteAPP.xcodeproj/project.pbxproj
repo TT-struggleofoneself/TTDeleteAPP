@@ -15,6 +15,7 @@
 		EB53D2AF1CC4C1F400F2C341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB53D2AD1CC4C1F400F2C341 /* LaunchScreen.storyboard */; };
 		EB53D2BA1CC4C1F400F2C341 /* TTDeleteAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D2B91CC4C1F400F2C341 /* TTDeleteAPPTests.m */; };
 		EB53D2C51CC4C1F400F2C341 /* TTDeleteAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D2C41CC4C1F400F2C341 /* TTDeleteAPPUITests.m */; };
+		EB53D2D51CC4C22C00F2C341 /* CloseAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D2D41CC4C22C00F2C341 /* CloseAppView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EB53D2C01CC4C1F400F2C341 /* TTDeleteAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTDeleteAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53D2C41CC4C1F400F2C341 /* TTDeleteAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDeleteAPPUITests.m; sourceTree = "<group>"; };
 		EB53D2C61CC4C1F400F2C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB53D2D31CC4C22C00F2C341 /* CloseAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseAppView.h; sourceTree = "<group>"; };
+		EB53D2D41CC4C22C00F2C341 /* CloseAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseAppView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		EB53D29E1CC4C1F400F2C341 /* TTDeleteAPP */ = {
 			isa = PBXGroup;
 			children = (
+				EB53D2D21CC4C22C00F2C341 /* ClocseApp */,
 				EB53D2A21CC4C1F400F2C341 /* AppDelegate.h */,
 				EB53D2A31CC4C1F400F2C341 /* AppDelegate.m */,
 				EB53D2A51CC4C1F400F2C341 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				EB53D2C61CC4C1F400F2C341 /* Info.plist */,
 			);
 			path = TTDeleteAPPUITests;
+			sourceTree = "<group>";
+		};
+		EB53D2D21CC4C22C00F2C341 /* ClocseApp */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D2D31CC4C22C00F2C341 /* CloseAppView.h */,
+				EB53D2D41CC4C22C00F2C341 /* CloseAppView.m */,
+			);
+			path = ClocseApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				EB53D2A71CC4C1F400F2C341 /* ViewController.m in Sources */,
 				EB53D2A41CC4C1F400F2C341 /* AppDelegate.m in Sources */,
 				EB53D2A11CC4C1F400F2C341 /* main.m in Sources */,
+				EB53D2D51CC4C22C00F2C341 /* CloseAppView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

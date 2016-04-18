@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EB53D29B1CC4C1F400F2C341"
+               BuildableName = "TTDeleteAPP.app"
+               BlueprintName = "TTDeleteAPP"
+               ReferencedContainer = "container:TTDeleteAPP.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EB53D2B41CC4C1F400F2C341"
+               BuildableName = "TTDeleteAPPTests.xctest"
+               BlueprintName = "TTDeleteAPPTests"
+               ReferencedContainer = "container:TTDeleteAPP.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EB53D2BF1CC4C1F400F2C341"
+               BuildableName = "TTDeleteAPPUITests.xctest"
+               BlueprintName = "TTDeleteAPPUITests"
+               ReferencedContainer = "container:TTDeleteAPP.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EB53D29B1CC4C1F400F2C341"
+            BuildableName = "TTDeleteAPP.app"
+            BlueprintName = "TTDeleteAPP"
+            ReferencedContainer = "container:TTDeleteAPP.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EB53D29B1CC4C1F400F2C341"
+            BuildableName = "TTDeleteAPP.app"
+            BlueprintName = "TTDeleteAPP"
+            ReferencedContainer = "container:TTDeleteAPP.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EB53D29B1CC4C1F400F2C341"
+            BuildableName = "TTDeleteAPP.app"
+            BlueprintName = "TTDeleteAPP"
+            ReferencedContainer = "container:TTDeleteAPP.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
